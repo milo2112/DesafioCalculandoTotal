@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="main">
+
+            <div class="card">
+                <img src="assets/img/pic.jpg" class="card-img" alt="card image">
+
+                <div class="card-body">
+                    <h5 class="card-title">Laptop Gamer AMD</h5>
+                    <input id="cantidad" placeholder="Cantidad"/>
+                    <input id="color" type="color" placeholder="Color"/>
+                    <p id="precio">Precio: $400.000</p>
+                    <button onClick="calcular()" >Calcular Total</button>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <p id="p-total">
+                    Total: <strong id="total"></strong>
+                </p>
+
+                <p id="p-canti">
+                    Cantidad: <strong id="cant"></strong>
+                </p>
+
+                <div class="divcolor"><p id="p-color">Color: </p>
+                    <div class="circulo" id="col"></div> 
+                </div>
+
+
+
+
+            </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
